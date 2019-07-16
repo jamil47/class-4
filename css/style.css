@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+all{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.clr{
+    clear: both;
+}
+
+/*--------------------------header part---------------------------*/
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	float: left;
+	background: #87509C;
+	padding: 10px 0px;
+}
+
+/*--------------------------logo part---------------------------*/
+
+.logo {
+
+width: 30%;
+
+float: left;
+}
+
+.logo img {
+
+display: block;
+
+max-width: 100%;
+}
+
+/*--------------------------menu part---------------------------*/
+
+.menu{
+    width: 70%;
+    float: left;
+}
+nev ul{
+   list-style: none; 
+}
+nav ul li{
+   display: inline-block;
+    margin: 10px 50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+/*--------------------------header-content part---------------------------*/
+
+.header-content{
+    width: 600px;
+    margin: 0 auto;
+    padding: 120px;
+    text-align: center;
+    padding-bottom: 63px;
+    
+}
+.header-content h2{
+    font-size: 30px;
+    color: #fff;
+    line-height: 33px;
+}
+.btn{
+    color: #fff;
+    background: #EB7D4B;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover {
+	box-shadow: 0px 3px 0px #a25532;
+
+}
+
+
+/*--------------------------header-content part---------------------------*/
+
+.service{
+    width: 100%;
+    float: left;
+    background: #17C2A4;
+    padding-top: 30px;
+}
+.service-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-title h1{
+    font-size: 28px;
+   text-transform: uppercase;
+}
+.underline{
+    border-bottom:2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.service-title p{
+    font-size: 19px;
+}
+
+
+/*--------------------------service-icon part---------------------------*/
+
+.service-icon{
+    margin-top: 30px;
+    
+}
+
+.service-one{
+   
+    width: 21%;
+    float: left;
+    margin: 10px 20px;
+    padding: 2px;
+     text-align: center;
+}
+.service-one img{
+    
+}
+.service-one h2{
+  color: #fff; 
+  font-size: 20px;
+    margin-top: 10px;
+}
+.service-one p{
+    color: #fff;
+}
+
+.service-two{
+   width: 21%;
+    float: left;
+    margin: 10px 20px;
+    padding: 2px;
+     text-align: center;
+}
+.service-two img{
+    
+}
+.service-two h2{
+    color: #fff; 
+  font-size: 20px;
+    margin-top: 10px;
+}
+.service-two p{
+    color: #fff;
+}
+
+.service-three{
+   
+    width: 21%;
+    float: left;
+    margin: 10px 20px;
+    padding: 2px;
+     text-align: center;
+}
+.service-three img{
+    
+}
+.service-three h2{
+   color: #fff; 
+  font-size: 20px;
+    margin-top: 10px;
+}
+.service-three p{
+    color: #fff; 
+}
+
+.service-four{
+   width: 21%;
+    float: left;
+    margin: 10px 20px;
+    padding: 2px;
+    text-align: center;
+    
+}
+.service-four img{
+    
+}
+.service-four h2{
+   color: #fff; 
+  font-size: 20px; 
+    margin-top: 10px;
+}
+.service-four p{
+    color: #fff; 
+}
+
+/*--------------------------profile part---------------------------*/
+
+.profile{
+    width: 100%;
+    float: left;
+    background: #D3D3D3;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.profile-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center; 
+    
+}
+.profile-title h1{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.underline{
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.profile-title p{
+    font-size: 19px;
+}
+.profile-one{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    
+}
+.profile-one img{
+    width: 150px;
+}
+.profile-one h2{
+    margin-top: 10px;
+}
+.color{
+    color: #9363B7;
+}
+.profile-one a{
+    color: #9E9E9E;
+    font-size: 22px;
+    margin: 10px;
+    padding-top: 10px;
+     
+}
+
+.profile-two{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    
+}
+.profile-two img{
+    width: 150px;
+}
+.profile-two h2{
+    margin-top: 10px;
+}
+.color{
+    color: #9363B7;
+}
+.profile-two a{
+    color: #9E9E9E;
+    font-size: 22px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.profile-three{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    
+}
+.profile-three img{
+    width: 150px;
+}
+.profile-three h2{
+    margin-top: 10px;
+}
+.color{
+    color: #9363B7;
+}
+.profile-three a{
+    color: #9E9E9E;
+    font-size: 22px;
+    margin: 10px;
+    
+}
+.profile-four{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    
+}
+.profile-four img{
+    width: 150px;
+}
+.profile-four h2{
+    margin-top: 10px;
+}
+.color{
+    color: #9363B7;
+}
+.profile-four a{
+    color: #9E9E9E;
+    font-size: 22px;
+    margin: 10px;
+    
+}
+
+
+/*--------------------------we got skill part---------------------------*/
+
+.skill{
+    width: 100%;
+    float: left;
+    background: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.skill-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center; 
+    
+}
+.skill-title h1{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.underline{
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.skill-title p{
+    font-size: 19px;
+}
+.skill-one{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    position:relative;
+    padding-top: 20px;
+    
+}
+.skill-one img{
+    width: 145px;
+}
+.skill-one h2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.skill-one span{
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    
+}
+.skill-two{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    position:relative;
+    padding-top: 20px;
+    
+}
+.skill-two img{
+    width: 145px;
+}
+.skill-two h2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.skill-two span{
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    
+}
+.skill-three{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    position:relative;
+    padding-top: 20px;
+    
+}
+.skill-three img{
+    width: 145px;
+}
+.skill-three h2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.skill-three span{
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    
+}
+.skill-four{
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 2px;
+    position:relative;
+    padding-top: 20px;
+    
+}
+.skill-four img{
+    width: 145px;
+}
+.skill-four h2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.skill-four span{
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    
+}
+
+
+/*--------------------------portfolio part---------------------------*/
+
+
+.portfolio{
+    width: 100%;
+    float: left;
+    background: #FFDD99;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+.portfolio-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center; 
+    
+}
+.portfolio-title h1{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.underline{
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.portfolio-title p{
+    font-size: 19px;
+}
+.btn2{
+    background: #C7AC75;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 0;
+}
+.protfolio-one{
+    width: 46%;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.protfolio-one p{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.protfolio-two{
+    width: 46%;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.protfolio-two p{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.protfolio-three{
+    width: 46%;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.protfolio-three p{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.protfolio-four{
+    width: 46%;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.protfolio-four p{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.btn3{
+     margin-left: 520px;
+    padding: 10px;
+    background: #30D0C1;
+    border: 0;
+    text-transform: uppercase;
+}
+
+
+        /*--------------------------peopole about us part---------------------------*/
+
+.about{
+    width: 100%;
+    float: left;
+    background: #D74680;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.about-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center; 
+    
+}
+.about-title h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.underline{
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.about-title p{
+    font-size: 19px;
+    color: #fff;
+}
+
+.about-one{
+    width: 570px;
+    float: left;
+    
+   
+}
+.side{
+    width: 15%;
+    float: left;
+}
+.side img{
+    width: 120px;
+}
+.side2{
+    width: 60%;
+    float: left;
+    padding-top: 25px;
+    margin-left: 80px;
+}
+.side2 p{
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+}
+.side2 h1{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: justify;
+    
+}
+.side2 h6{
+    color: #F6B864;
+    text-align: justify;
+    font-size: 16px;
+   
+}
+.about-two{
+    width: 570px;
+    float: left;
+    
+}
+.about-three{
+    width: 570px;
+    float: left;
+    padding-top: 20px;
+    
+}
+.about-four{
+    width: 570px;
+    float: left;
+    padding-top: 20px;
+    
+}
+
+/*--------------------------get in touch part---------------------------*/
+
+.touch{
+    width: 100%;
+    float: left;
+    background: #3C5499;
+    padding-top: 30px;
+    text-align: center;
+}
+.touch-title{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.touch-title h1{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+    
+}
+.underline{
+    border-bottom: 2px solid #161616;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.touch-title p{
+    font-size: 18px;
+    color: #fff;
+}
+.name{
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.name input{
+    background: #0D3252;
+    border: 0;
+    padding: 5px;
+    padding-left: 100px;
+    margin-left: 261px;
+}
+.email{
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.email input{
+    background: #0D3252;
+    border: 0;
+    padding: 5px;
+    padding-left: 100px;
+    margin-right: 157px;
+}
+.msg{
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.msg textarea{
+    background: #0D3252;
+    border: 0;
+    padding: 20px;
+    padding-right: 190px;
+    margin-left: -54px;
+}
+.btn5{
+    margin-right: 44px;
+    padding: 14px;
+    background: #30D0C1;
+    border: 0;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+/*--------------------------footer part---------------------------*/
+
+footer{
+    width: 100%;
+    background: #344B8E;
+     padding-top:30px;
+}
+.media{
+    width: 100%;
+    
+    
+    
+}
+nev1 ul{
+   list-style: none; 
+}
+nav1 ul li{
+   display: inline-block;
+    margin: 10px 45px;
+    line-height: 100px
+     
+}
+nav1 ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
